@@ -12,12 +12,15 @@
     "autoload": {
         "classmap": [],
         "psr-4": {
-            "bSushil\\DependencyInjection":"src/"
+            "bSushil\\DependencyInjection\\":"src/"
         }
     },
     "require": {
         "php":">=7.0.0"
     },
     "minimum-stability": "dev",
-    "prefer-stable": true   
+    "prefer-stable": true,
+    "require-dev": {
+        "phpstan/phpstan": "^1.4"
+    }
 }
