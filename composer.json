@@ -1,0 +1,23 @@
+{
+    "name":"bsushil/di-container",
+    "description": "Dependency injection container for PHP",
+    "license": "MIT",
+    "homepage":"https://github.com/bSushil/di-container",
+    "authors": [
+        {
+            "name":"Sushil Bajiimaya",
+            "email":"sushil@simriksolutions.com"
+        }
+    ],
+    "autoload": {
+        "classmap": [],
+        "psr-4": {
+            "bSushil\\DependencyInjection":"src/"
+        }
+    },
+    "require": {
+        "php":">=7.0.0"
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true   
+}
